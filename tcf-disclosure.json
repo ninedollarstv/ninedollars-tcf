@@ -1,0 +1,34 @@
+{
+  "domains": [
+    {
+      "domain": "ninedollars.tv",
+      "use": "Primary domain for Ninedollars service and data collection."
+    }
+  ],
+  "disclosures": [
+    {
+      "identifier": "hopprid",
+      "type": "web",
+      "maxAgeSeconds": null,
+      "purposes": [1, 10],
+      "domain": "*"
+    },
+    {
+      "identifier": "hoppr_app_settings",
+      "type": "web",
+      "maxAgeSeconds": null,
+      "purposes": [1, 7],
+      "domain": "*"
+    }
+  ],
+  "sdks": [
+    {
+      "name": "com.hoppr:hoppr-android",
+      "use": "Android advertising and analytics SDK for connected TV applications."
+    },
+    {
+      "name": "hoppr-web-sdk",
+      "use": "WEB advertising and analytics SDK for connected TV applications."
+    }
+  ]
+}
